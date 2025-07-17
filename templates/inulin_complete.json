@@ -1,0 +1,153 @@
+{
+  "ingredient": {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "Inulin",
+    "slug": "inulin",
+    "aliases": [
+      "Chicory root fiber",
+      "Jerusalem artichoke extract",
+      "Fructan"
+    ],
+    "category": "prebiotic",
+    "description": "Inulin is a type of soluble fiber and prebiotic found naturally in many plants, particularly chicory root and Jerusalem artichoke. It acts as a prebiotic by selectively stimulating the growth and activity of beneficial bacteria in the colon, particularly Bifidobacterium species. Inulin is not digested by human enzymes but is fermented by gut bacteria, producing short-chain fatty acids that provide various health benefits.",
+    "gut_score": 8.5,
+    "confidence_score": 0.85,
+    "dosage_info": {
+      "min_dose": 2.5,
+      "max_dose": 10,
+      "unit": "g",
+      "frequency": "daily",
+      "duration": "4-8 weeks for initial effects",
+      "form": "powder or capsule",
+      "timing": "with meals to reduce GI distress",
+      "notes": "Start with lower dose and gradually increase to minimize bloating"
+    },
+    "safety_notes": "Generally safe for most adults. May cause gas, bloating, or digestive discomfort in sensitive individuals, especially at higher doses. Start with small amounts and increase gradually. Those with FODMAP sensitivity should consult healthcare provider.",
+    "created_at": "2024-01-15T10:00:00Z",
+    "updated_at": "2024-01-15T10:00:00Z"
+  },
+  "microbiome_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440000",
+      "bacteria_name": "Bifidobacterium longum",
+      "bacteria_level": "increase",
+      "effect_type": "selective growth promotion",
+      "effect_strength": "strong",
+      "confidence": 0.90,
+      "mechanism": "Provides fermentable substrate that is preferentially utilized by Bifidobacterium species",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440000",
+      "bacteria_name": "Lactobacillus acidophilus",
+      "bacteria_level": "increase",
+      "effect_type": "growth promotion",
+      "effect_strength": "moderate",
+      "confidence": 0.75,
+      "mechanism": "Secondary fermentation of inulin breakdown products supports Lactobacillus growth",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440000",
+      "effect_name": "Short-chain fatty acid production",
+      "effect_category": "metabolite production",
+      "impact_direction": "positive",
+      "effect_strength": "strong",
+      "confidence": 0.88,
+      "dosage_dependent": true,
+      "mechanism": "Bacterial fermentation of inulin produces butyrate, acetate, and propionate",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440000",
+      "effect_name": "Calcium absorption enhancement",
+      "effect_category": "mineral absorption",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.72,
+      "dosage_dependent": true,
+      "mechanism": "SCFA production lowers colonic pH, enhancing calcium solubility and absorption",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440000",
+      "symptom_name": "constipation",
+      "symptom_category": "digestive",
+      "effect_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.78,
+      "dosage_dependent": true,
+      "population_notes": "More effective in elderly populations and those with chronic constipation",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440000",
+      "symptom_name": "bloating",
+      "symptom_category": "digestive",
+      "effect_direction": "negative",
+      "effect_strength": "weak",
+      "confidence": 0.65,
+      "dosage_dependent": true,
+      "population_notes": "More common in individuals with IBS or FODMAP sensitivity",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "citations": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "pmid": "28914794",
+      "doi": "10.3390/nu9101080",
+      "title": "Prebiotic effects of inulin and oligofructose",
+      "authors": "Gibson GR, Hutkins R, Sanders ME, Prescott SL, Reimer RA, Salminen SJ, Scott K, Stanton C, Swanson KS, Cani PD, Verbeke K, Reid G",
+      "journal": "Nutrients",
+      "publication_year": 2017,
+      "study_type": "review",
+      "sample_size": null,
+      "study_quality": 0.88,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "pmid": "25499871",
+      "doi": "10.1017/S0007114514003948",
+      "title": "Inulin supplementation modulates the gut microbiota and increases butyrate-producing bacteria",
+      "authors": "Ramirez-Farias C, Slezak K, Fuller Z, Duncan A, Holtrop G, Louis P",
+      "journal": "British Journal of Nutrition",
+      "publication_year": 2014,
+      "study_type": "rct",
+      "sample_size": 32,
+      "study_quality": 0.82,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "ingredient_1_id": "550e8400-e29b-41d4-a716-446655440000",
+      "ingredient_2_id": "550e8400-e29b-41d4-a716-446655440010",
+      "interaction_type": "synergistic",
+      "effect_description": "Inulin and probiotics work synergistically as a synbiotic combination, with inulin providing substrate for probiotic bacteria",
+      "confidence": 0.85,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ]
+}

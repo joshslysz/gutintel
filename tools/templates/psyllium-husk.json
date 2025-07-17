@@ -1,0 +1,100 @@
+{
+  "ingredient": {
+    "id": "096426ca-502c-48b4-b6e7-01a47ccda31f",
+    "name": "Psyllium Husk",
+    "slug": "psyllium-husk",
+    "aliases": [
+      "[Example: Alternative name for Psyllium Husk]",
+      "[Example: Common name for Psyllium Husk]"
+    ],
+    "category": "fiber",
+    "description": "[Description of Psyllium Husk. Include origin, properties, and general health benefits. Example: Psyllium Husk is a natural compound that...]",
+    "gut_score": "[Enter gut health score from 0-10, rounded to 1 decimal place. Example: 8.5]",
+    "confidence_score": "[Enter confidence score from 0-1, rounded to 2 decimal places. Example: 0.85]",
+    "dosage_info": {
+      "min_dose": "[Minimum effective dose. Example: 500]",
+      "max_dose": "[Maximum safe dose. Example: 2000]",
+      "unit": "[Unit of measurement. Example: mg, g, CFU]",
+      "frequency": "[Dosing frequency. Example: daily, twice daily]",
+      "duration": "[Treatment duration. Example: 4-8 weeks]",
+      "form": "[Form of supplement. Example: capsule, powder, liquid]",
+      "timing": "[When to take. Example: with meals, on empty stomach]",
+      "notes": "[Additional dosing notes. Example: Start with lower dose]"
+    },
+    "safety_notes": "[Safety information for Psyllium Husk. Include contraindications, side effects, and precautions. Example: Generally safe for most adults...]",
+    "created_at": "2025-07-17T09:53:18.187185",
+    "updated_at": "2025-07-17T09:53:18.187185"
+  },
+  "microbiome_effects": [
+    {
+      "id": "b3d56b07-2f43-42bf-8bde-2147a2ea158a",
+      "ingredient_id": "[Will be populated with ingredient ID]",
+      "bacteria_name": "[Example: Faecalibacterium prausnitzii]",
+      "bacteria_level": "[increase/decrease/modulate]",
+      "effect_type": "[Example: Substrate provision for fermentation]",
+      "effect_strength": "[weak/moderate/strong]",
+      "confidence": "[Confidence score 0-1. Example: 0.75]",
+      "mechanism": "[Description of how it works. Example: Provides substrate for bacterial fermentation]",
+      "created_at": "2025-07-17T09:53:18.187185",
+      "updated_at": "2025-07-17T09:53:18.187185"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "id": "8b81f537-f4b2-4185-9e84-6c5e116f58a2",
+      "ingredient_id": "[Will be populated with ingredient ID]",
+      "effect_name": "[Example: Short-chain fatty acid production]",
+      "effect_category": "[Category. Example: short-chain fatty acids, inflammation]",
+      "impact_direction": "[positive/negative/neutral]",
+      "effect_strength": "[weak/moderate/strong]",
+      "confidence": "[Confidence score 0-1. Example: 0.80]",
+      "dosage_dependent": "[true/false - whether effect depends on dosage]",
+      "mechanism": "[How it affects metabolism. Example: Enhances butyrate production through bacterial fermentation]",
+      "created_at": "2025-07-17T09:53:18.187185",
+      "updated_at": "2025-07-17T09:53:18.187185"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "id": "b85e20d0-1293-40ff-b3a6-cbfe69a46988",
+      "ingredient_id": "[Will be populated with ingredient ID]",
+      "symptom_name": "[Example: Improved stool consistency]",
+      "symptom_category": "[Category. Example: digestive, inflammatory]",
+      "effect_direction": "[positive/negative/neutral]",
+      "effect_strength": "[weak/moderate/strong]",
+      "confidence": "[Confidence score 0-1. Example: 0.70]",
+      "dosage_dependent": "[true/false]",
+      "population_notes": "[Notes about specific populations. Example: More effective in adults over 50]",
+      "created_at": "2025-07-17T09:53:18.187185",
+      "updated_at": "2025-07-17T09:53:18.187185"
+    }
+  ],
+  "citations": [
+    {
+      "id": "82ab999d-eca7-432e-a2fe-61b6b1a4dce0",
+      "pmid": "[PubMed ID, 1-8 digits. Example: 12345678]",
+      "doi": "[DOI starting with 10. Example: 10.1038/s41598-020-12345-6]",
+      "title": "[Study title. Example: Effects of prebiotic supplementation on gut microbiome]",
+      "authors": "[Study authors. Example: Smith J, Johnson A, Brown K]",
+      "journal": "[Journal name. Example: Nature Scientific Reports]",
+      "publication_year": "[Year 1900-2025. Example: 2023]",
+      "study_type": "[rct/observational/meta_analysis/review/case_study/in_vitro/animal]",
+      "sample_size": "[Sample size >0. Example: 120]",
+      "study_quality": "[Quality score 0-1. Example: 0.85]",
+      "created_at": "2025-07-17T09:53:18.187185",
+      "updated_at": "2025-07-17T09:53:18.187185"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "aca3bb66-a9b7-4dbd-a441-794f69892b77",
+      "ingredient_1_id": "[First ingredient ID]",
+      "ingredient_2_id": "[Second ingredient ID]",
+      "interaction_type": "[synergistic/antagonistic/neutral/unknown]",
+      "effect_description": "[Description of interaction. Example: Enhances absorption when taken together]",
+      "confidence": "[Confidence score 0-1. Example: 0.65]",
+      "created_at": "2025-07-17T09:53:18.187185",
+      "updated_at": "2025-07-17T09:53:18.187185"
+    }
+  ]
+}

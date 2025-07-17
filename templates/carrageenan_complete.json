@@ -1,0 +1,153 @@
+{
+  "ingredient": {
+    "id": "550e8400-e29b-41d4-a716-446655440032",
+    "name": "Carrageenan",
+    "slug": "carrageenan",
+    "aliases": [
+      "Irish moss extract",
+      "Kappa-carrageenan",
+      "Lambda-carrageenan"
+    ],
+    "category": "other",
+    "description": "Carrageenan is a food additive extracted from red seaweed (Chondrus crispus) and commonly used as a thickener, stabilizer, and emulsifier in processed foods including dairy products, plant-based milks, and deli meats. While approved by food safety authorities, emerging research suggests potential negative effects on gut health, particularly related to intestinal inflammation and microbiome disruption.",
+    "gut_score": 3.2,
+    "confidence_score": 0.68,
+    "dosage_info": {
+      "min_dose": 0,
+      "max_dose": 0,
+      "unit": "mg",
+      "frequency": "avoid when possible",
+      "duration": "limit exposure",
+      "form": "food additive",
+      "timing": "present in processed foods",
+      "notes": "Check ingredient labels, particularly in dairy alternatives and processed foods"
+    },
+    "safety_notes": "Generally recognized as safe by regulatory agencies, but emerging research suggests potential gut health concerns. May cause digestive inflammation in sensitive individuals. Those with inflammatory bowel conditions may want to limit exposure. Degraded carrageenan (poligeenan) is more concerning than food-grade carrageenan.",
+    "created_at": "2024-01-15T10:00:00Z",
+    "updated_at": "2024-01-15T10:00:00Z"
+  },
+  "microbiome_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440033",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440032",
+      "bacteria_name": "Akkermansia muciniphila",
+      "bacteria_level": "decrease",
+      "effect_type": "mucosal barrier disruption",
+      "effect_strength": "moderate",
+      "confidence": 0.72,
+      "mechanism": "May disrupt mucus layer integrity, reducing habitat for mucin-degrading bacteria",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440034",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440032",
+      "bacteria_name": "Bacteroides thetaiotaomicron",
+      "bacteria_level": "decrease",
+      "effect_type": "growth inhibition",
+      "effect_strength": "weak",
+      "confidence": 0.65,
+      "mechanism": "Potential interference with bacterial adherence and colonization",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440035",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440032",
+      "effect_name": "Inflammatory marker increase",
+      "effect_category": "inflammation",
+      "impact_direction": "negative",
+      "effect_strength": "moderate",
+      "confidence": 0.75,
+      "dosage_dependent": true,
+      "mechanism": "Potential activation of inflammatory pathways through toll-like receptor signaling",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440036",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440032",
+      "effect_name": "Intestinal permeability increase",
+      "effect_category": "barrier function",
+      "impact_direction": "negative",
+      "effect_strength": "moderate",
+      "confidence": 0.70,
+      "dosage_dependent": true,
+      "mechanism": "May disrupt tight junction proteins and increase intestinal permeability",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440037",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440032",
+      "symptom_name": "digestive inflammation",
+      "symptom_category": "inflammatory",
+      "effect_direction": "negative",
+      "effect_strength": "moderate",
+      "confidence": 0.68,
+      "dosage_dependent": true,
+      "population_notes": "May be more problematic for individuals with existing inflammatory bowel conditions",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440038",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440032",
+      "symptom_name": "abdominal discomfort",
+      "symptom_category": "digestive",
+      "effect_direction": "negative",
+      "effect_strength": "weak",
+      "confidence": 0.60,
+      "dosage_dependent": true,
+      "population_notes": "More commonly reported in sensitive individuals",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "citations": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440039",
+      "pmid": "23713618",
+      "doi": "10.1016/j.fct.2013.05.025",
+      "title": "Review of harmful gastrointestinal effects of carrageenan in animal experiments",
+      "authors": "Tobacman JK",
+      "journal": "Food and Chemical Toxicology",
+      "publication_year": 2013,
+      "study_type": "review",
+      "sample_size": null,
+      "study_quality": 0.79,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440040",
+      "pmid": "28731857",
+      "doi": "10.1080/10408398.2017.1339670",
+      "title": "Carrageenan: new insights into the effects of this food additive on human health",
+      "authors": "David S, Levi CS, Fahoum L, Ungar Y, Meyron-Holtz EG, Shpigelman A, Lesmes U",
+      "journal": "Critical Reviews in Food Science and Nutrition",
+      "publication_year": 2018,
+      "study_type": "review",
+      "sample_size": null,
+      "study_quality": 0.82,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440041",
+      "ingredient_1_id": "550e8400-e29b-41d4-a716-446655440032",
+      "ingredient_2_id": "550e8400-e29b-41d4-a716-446655440000",
+      "interaction_type": "antagonistic",
+      "effect_description": "Carrageenan may counteract the beneficial effects of prebiotics by disrupting the gut barrier",
+      "confidence": 0.65,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ]
+}

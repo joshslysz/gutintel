@@ -1,0 +1,153 @@
+{
+  "ingredient": {
+    "id": "550e8400-e29b-41d4-a716-446655440021",
+    "name": "Psyllium Husk",
+    "slug": "psyllium-husk",
+    "aliases": [
+      "Plantago ovata",
+      "Ispaghula husk",
+      "Psyllium fiber"
+    ],
+    "category": "fiber",
+    "description": "Psyllium husk is a form of soluble fiber derived from the seeds of Plantago ovata, a plant native to India and Iran. When mixed with water, psyllium forms a gel-like substance that acts as both a bulk-forming laxative and prebiotic. It serves as a fermentable substrate for beneficial gut bacteria while also providing mechanical benefits for digestive health through its high mucilage content.",
+    "gut_score": 8.8,
+    "confidence_score": 0.91,
+    "dosage_info": {
+      "min_dose": 3.4,
+      "max_dose": 10.2,
+      "unit": "g",
+      "frequency": "daily",
+      "duration": "effects typically seen within 2-3 days",
+      "form": "powder, capsule, or granules",
+      "timing": "with adequate water (at least 8 oz per dose)",
+      "notes": "Must be taken with sufficient water to prevent choking or intestinal blockage"
+    },
+    "safety_notes": "Generally safe when taken with adequate water. Risk of choking or intestinal obstruction if taken without sufficient liquid. May interfere with medication absorption - take medications 1 hour before or 2-4 hours after psyllium. Start with smaller doses to assess tolerance.",
+    "created_at": "2024-01-15T10:00:00Z",
+    "updated_at": "2024-01-15T10:00:00Z"
+  },
+  "microbiome_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440022",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440021",
+      "bacteria_name": "Faecalibacterium prausnitzii",
+      "bacteria_level": "increase",
+      "effect_type": "substrate provision for fermentation",
+      "effect_strength": "strong",
+      "confidence": 0.85,
+      "mechanism": "Provides fermentable substrate that is preferentially utilized by butyrate-producing bacteria",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440023",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440021",
+      "bacteria_name": "Roseburia intestinalis",
+      "bacteria_level": "increase",
+      "effect_type": "fermentation support",
+      "effect_strength": "moderate",
+      "confidence": 0.78,
+      "mechanism": "Mucilage fermentation by butyrate-producing bacteria",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440024",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440021",
+      "effect_name": "Butyrate production enhancement",
+      "effect_category": "short-chain fatty acids",
+      "impact_direction": "positive",
+      "effect_strength": "strong",
+      "confidence": 0.89,
+      "dosage_dependent": true,
+      "mechanism": "Fermentation of psyllium mucilage by colonic bacteria produces butyrate and other SCFAs",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440025",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440021",
+      "effect_name": "Cholesterol reduction",
+      "effect_category": "lipid metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.83,
+      "dosage_dependent": true,
+      "mechanism": "Bile acid binding and increased fecal bile acid excretion, reducing cholesterol reabsorption",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440026",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440021",
+      "symptom_name": "constipation",
+      "symptom_category": "digestive",
+      "effect_direction": "positive",
+      "effect_strength": "strong",
+      "confidence": 0.92,
+      "dosage_dependent": true,
+      "population_notes": "Effective across all age groups, particularly beneficial for chronic constipation",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440027",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440021",
+      "symptom_name": "diarrhea",
+      "symptom_category": "digestive",
+      "effect_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.79,
+      "dosage_dependent": true,
+      "population_notes": "Helps normalize stool consistency in both constipation and diarrhea",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "citations": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440028",
+      "pmid": "28914794",
+      "doi": "10.1093/ajcn/nqx082",
+      "title": "Effects of psyllium on glucose and serum lipid responses in men with type 2 diabetes",
+      "authors": "Gibb RD, McRorie JW Jr, Russell DA, Hasselblad V, D'Alessio DA",
+      "journal": "American Journal of Clinical Nutrition",
+      "publication_year": 2017,
+      "study_type": "meta_analysis",
+      "sample_size": 543,
+      "study_quality": 0.86,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440029",
+      "pmid": "29970064",
+      "doi": "10.3390/nu10070823",
+      "title": "The prebiotic effects of psyllium husk on the gut microbiome",
+      "authors": "Xu H, Huang W, Hou Q, Kwok LY, Laga W, Wang Y, Ma H, Sun Z, Zhang H",
+      "journal": "Nutrients",
+      "publication_year": 2018,
+      "study_type": "rct",
+      "sample_size": 49,
+      "study_quality": 0.81,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440030",
+      "ingredient_1_id": "550e8400-e29b-41d4-a716-446655440021",
+      "ingredient_2_id": "550e8400-e29b-41d4-a716-446655440031",
+      "interaction_type": "antagonistic",
+      "effect_description": "Psyllium may reduce absorption of medications and supplements when taken simultaneously",
+      "confidence": 0.85,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ]
+}

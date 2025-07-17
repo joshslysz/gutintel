@@ -1,0 +1,153 @@
+{
+  "ingredient": {
+    "id": "550e8400-e29b-41d4-a716-446655440011",
+    "name": "Lactobacillus rhamnosus GG",
+    "slug": "lactobacillus-rhamnosus-gg",
+    "aliases": [
+      "LGG",
+      "L. rhamnosus GG",
+      "Lactobacillus GG"
+    ],
+    "category": "probiotic",
+    "description": "Lactobacillus rhamnosus GG (LGG) is one of the most extensively studied probiotic strains worldwide. Originally isolated from a healthy human intestinal tract, LGG has demonstrated exceptional ability to survive gastric acid and bile salts, allowing it to colonize the intestinal tract effectively. It has been shown to provide numerous health benefits including immune system support, digestive health improvement, and protection against pathogenic bacteria.",
+    "gut_score": 9.2,
+    "confidence_score": 0.92,
+    "dosage_info": {
+      "min_dose": 1000000000,
+      "max_dose": 100000000000,
+      "unit": "CFU",
+      "frequency": "daily",
+      "duration": "minimum 2 weeks for colonization",
+      "form": "capsule, powder, or fermented dairy",
+      "timing": "with or after meals",
+      "notes": "Refrigeration recommended for optimal viability"
+    },
+    "safety_notes": "Generally recognized as safe (GRAS) for healthy individuals. May cause mild digestive symptoms initially. Immunocompromised individuals should consult healthcare provider before use. Rare cases of bacteremia reported in severely ill patients.",
+    "created_at": "2024-01-15T10:00:00Z",
+    "updated_at": "2024-01-15T10:00:00Z"
+  },
+  "microbiome_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440012",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440011",
+      "bacteria_name": "Lactobacillus rhamnosus GG",
+      "bacteria_level": "increase",
+      "effect_type": "direct bacterial colonization",
+      "effect_strength": "strong",
+      "confidence": 0.95,
+      "mechanism": "Direct introduction of viable bacteria that can survive transit and colonize the intestinal tract",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440013",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440011",
+      "bacteria_name": "Clostridium difficile",
+      "bacteria_level": "decrease",
+      "effect_type": "pathogen inhibition",
+      "effect_strength": "moderate",
+      "confidence": 0.82,
+      "mechanism": "Competitive exclusion and production of antimicrobial compounds",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440014",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440011",
+      "effect_name": "Lactate production",
+      "effect_category": "metabolite production",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.88,
+      "dosage_dependent": true,
+      "mechanism": "Fermentation of available carbohydrates produces lactic acid, lowering intestinal pH",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440015",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440011",
+      "effect_name": "Immune system modulation",
+      "effect_category": "immune response",
+      "impact_direction": "positive",
+      "effect_strength": "strong",
+      "confidence": 0.90,
+      "dosage_dependent": true,
+      "mechanism": "Stimulation of dendritic cells and T-regulatory cells, balanced cytokine production",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440016",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440011",
+      "symptom_name": "antibiotic-associated diarrhea",
+      "symptom_category": "digestive",
+      "effect_direction": "positive",
+      "effect_strength": "strong",
+      "confidence": 0.89,
+      "dosage_dependent": true,
+      "population_notes": "Particularly effective in children and elderly populations",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440017",
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440011",
+      "symptom_name": "respiratory tract infections",
+      "symptom_category": "immune",
+      "effect_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.75,
+      "dosage_dependent": true,
+      "population_notes": "More pronounced effects in children and elderly",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "citations": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440018",
+      "pmid": "23609775",
+      "doi": "10.1016/j.clnu.2013.03.011",
+      "title": "Lactobacillus rhamnosus GG in the primary prevention of eczema in children",
+      "authors": "Pelucchi C, Chatenoud L, Turati F, Galeone C, Moja L, Bach JF, La Vecchia C",
+      "journal": "Clinical Nutrition",
+      "publication_year": 2013,
+      "study_type": "meta_analysis",
+      "sample_size": 1477,
+      "study_quality": 0.91,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440019",
+      "pmid": "25599185",
+      "doi": "10.1016/j.clnu.2015.01.002",
+      "title": "Probiotics for the prevention of antibiotic-associated diarrhea in children",
+      "authors": "Goldenberg JZ, Lytvyn L, Steurich J, Parkin P, Mahant S, Johnston BC",
+      "journal": "Clinical Nutrition",
+      "publication_year": 2015,
+      "study_type": "meta_analysis",
+      "sample_size": 3938,
+      "study_quality": 0.87,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440020",
+      "ingredient_1_id": "550e8400-e29b-41d4-a716-446655440011",
+      "ingredient_2_id": "550e8400-e29b-41d4-a716-446655440000",
+      "interaction_type": "synergistic",
+      "effect_description": "LGG and prebiotics form synbiotic combinations, with prebiotics providing substrate for enhanced survival and activity",
+      "confidence": 0.88,
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    }
+  ]
+}

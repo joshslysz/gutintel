@@ -1,0 +1,100 @@
+{
+  "ingredient": {
+    "id": "e42c01d2-f6e6-4b3c-9bcf-3f524056753c",
+    "name": "Carrageenan",
+    "slug": "carrageenan",
+    "aliases": [
+      "[Example: Alternative name for Carrageenan]",
+      "[Example: Common name for Carrageenan]"
+    ],
+    "category": "other",
+    "description": "[Description of Carrageenan. Include origin, properties, and general health benefits. Example: Carrageenan is a natural compound that...]",
+    "gut_score": "[Enter gut health score from 0-10, rounded to 1 decimal place. Example: 8.5]",
+    "confidence_score": "[Enter confidence score from 0-1, rounded to 2 decimal places. Example: 0.85]",
+    "dosage_info": {
+      "min_dose": "[Minimum effective dose. Example: 500]",
+      "max_dose": "[Maximum safe dose. Example: 2000]",
+      "unit": "[Unit of measurement. Example: mg, g, CFU]",
+      "frequency": "[Dosing frequency. Example: daily, twice daily]",
+      "duration": "[Treatment duration. Example: 4-8 weeks]",
+      "form": "[Form of supplement. Example: capsule, powder, liquid]",
+      "timing": "[When to take. Example: with meals, on empty stomach]",
+      "notes": "[Additional dosing notes. Example: Start with lower dose]"
+    },
+    "safety_notes": "[Safety information for Carrageenan. Include contraindications, side effects, and precautions. Example: Generally safe for most adults...]",
+    "created_at": "2025-07-17T09:53:23.038095",
+    "updated_at": "2025-07-17T09:53:23.038095"
+  },
+  "microbiome_effects": [
+    {
+      "id": "2b2bb583-4722-4e3a-b608-ce7e46549745",
+      "ingredient_id": "[Will be populated with ingredient ID]",
+      "bacteria_name": "[Name of affected bacteria. Example: Bifidobacterium longum]",
+      "bacteria_level": "[increase/decrease/modulate]",
+      "effect_type": "[Type of effect. Example: growth promotion, inhibition]",
+      "effect_strength": "[weak/moderate/strong]",
+      "confidence": "[Confidence score 0-1. Example: 0.75]",
+      "mechanism": "[Description of how it works. Example: Provides substrate for bacterial fermentation]",
+      "created_at": "2025-07-17T09:53:23.038095",
+      "updated_at": "2025-07-17T09:53:23.038095"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "id": "b2ec002d-2075-45ce-ae5f-ea3711691d00",
+      "ingredient_id": "[Will be populated with ingredient ID]",
+      "effect_name": "[Name of metabolic effect. Example: SCFA production]",
+      "effect_category": "[Category. Example: short-chain fatty acids, inflammation]",
+      "impact_direction": "[positive/negative/neutral]",
+      "effect_strength": "[weak/moderate/strong]",
+      "confidence": "[Confidence score 0-1. Example: 0.80]",
+      "dosage_dependent": "[true/false - whether effect depends on dosage]",
+      "mechanism": "[How it affects metabolism. Example: Enhances butyrate production through bacterial fermentation]",
+      "created_at": "2025-07-17T09:53:23.038095",
+      "updated_at": "2025-07-17T09:53:23.038095"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "id": "5207e794-1dec-422b-9ff8-ac91974ab222",
+      "ingredient_id": "[Will be populated with ingredient ID]",
+      "symptom_name": "[Symptom affected. Example: bloating, constipation]",
+      "symptom_category": "[Category. Example: digestive, inflammatory]",
+      "effect_direction": "[positive/negative/neutral]",
+      "effect_strength": "[weak/moderate/strong]",
+      "confidence": "[Confidence score 0-1. Example: 0.70]",
+      "dosage_dependent": "[true/false]",
+      "population_notes": "[Notes about specific populations. Example: More effective in adults over 50]",
+      "created_at": "2025-07-17T09:53:23.038095",
+      "updated_at": "2025-07-17T09:53:23.038095"
+    }
+  ],
+  "citations": [
+    {
+      "id": "e3f29f0a-96ca-41ae-8629-7d8ae80ce2bf",
+      "pmid": "[PubMed ID, 1-8 digits. Example: 12345678]",
+      "doi": "[DOI starting with 10. Example: 10.1038/s41598-020-12345-6]",
+      "title": "[Study title. Example: Effects of prebiotic supplementation on gut microbiome]",
+      "authors": "[Study authors. Example: Smith J, Johnson A, Brown K]",
+      "journal": "[Journal name. Example: Nature Scientific Reports]",
+      "publication_year": "[Year 1900-2025. Example: 2023]",
+      "study_type": "[rct/observational/meta_analysis/review/case_study/in_vitro/animal]",
+      "sample_size": "[Sample size >0. Example: 120]",
+      "study_quality": "[Quality score 0-1. Example: 0.85]",
+      "created_at": "2025-07-17T09:53:23.038095",
+      "updated_at": "2025-07-17T09:53:23.038095"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "0251e1ad-3c72-4aee-a33e-f658a7e82879",
+      "ingredient_1_id": "[First ingredient ID]",
+      "ingredient_2_id": "[Second ingredient ID]",
+      "interaction_type": "[synergistic/antagonistic/neutral/unknown]",
+      "effect_description": "[Description of interaction. Example: Enhances absorption when taken together]",
+      "confidence": "[Confidence score 0-1. Example: 0.65]",
+      "created_at": "2025-07-17T09:53:23.038095",
+      "updated_at": "2025-07-17T09:53:23.038095"
+    }
+  ]
+}
