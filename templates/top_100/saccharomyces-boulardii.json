@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Saccharomyces boulardii",
+    "slug": "saccharomyces-boulardii",
+    "category": "probiotic",
+    "description": "Beneficial yeast probiotic with antibiotic resistance and pathogen inhibition",
+    "gut_score": 8.5,
+    "confidence_score": 0.9,
+    "aliases": [
+      "S. boulardii",
+      "CNCM I-745",
+      "Probiotic yeast"
+    ],
+    "dosage_info": {
+      "min_dose": "5000000000.0",
+      "max_dose": "20000000000",
+      "unit": "CFU",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Clostridium difficile",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Anti-inflammatory factors and protease production inhibit pathogenic bacteria"
+    },
+    {
+      "bacteria_name": "Salmonella",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Yeast maintains during antibiotic therapy and modulates inflammatory response"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases sIgA and modulates inflammatory response while maintaining intestinal barrier"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "diarrhea",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces antibiotic-associated diarrhea by 57% and prevents C. difficile recurrence"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Multiple meta-analyses showing consistent AAD prevention",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

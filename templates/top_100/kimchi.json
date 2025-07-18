@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Kimchi",
+    "slug": "kimchi",
+    "category": "other",
+    "description": "Korean fermented vegetables with diverse probiotics and bioactive compounds",
+    "gut_score": 7.0,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Korean fermented vegetables",
+      "Fermented cabbage"
+    ],
+    "dosage_info": {
+      "min_dose": "30000.0",
+      "max_dose": "60000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Diverse probiotics enhance microbiome diversity and reduce pathogenic bacteria"
+    },
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Fermentation enhances SCFA production and supports weight management"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances microbiome diversity and SCFA production with weight management support"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Supports weight management and reduces inflammation through diverse probiotic content"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "32184365",
+      "title": "Fermented foods and gut microbiome",
+      "authors": "Research Team",
+      "journal": "mSystems",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

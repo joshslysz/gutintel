@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Garlic",
+    "slug": "garlic",
+    "category": "herb",
+    "description": "Allium vegetable with prebiotic effects and antimicrobial properties",
+    "gut_score": 7.5,
+    "confidence_score": 0.78,
+    "aliases": [
+      "Allium sativum",
+      "Lahsun",
+      "Allicin"
+    ],
+    "dosage_info": {
+      "min_dose": "600.0",
+      "max_dose": "1200",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Akkermansia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Prebiotic effects and antimicrobial activity against pathogens promote beneficial bacteria"
+    },
+    {
+      "bacteria_name": "Faecalibacterium prausnitzii",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Broad-spectrum antibacterial activity selectively targets pathogens while supporting beneficial bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Reduces gut inflammation and improves gut barrier function through antimicrobial activity"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "gas",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces digestive discomfort and improves gut microbiome diversity with immune support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "32033507",
+      "title": "Modulation of Allicin-Free Garlic on Gut Microbiome",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

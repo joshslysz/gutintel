@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Black pepper",
+    "slug": "black-pepper",
+    "category": "herb",
+    "description": "Bioavailability enhancer with limited direct gut benefits",
+    "gut_score": 5.5,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Piper nigrum",
+      "Piperine",
+      "Bioperine"
+    ],
+    "dosage_info": {
+      "min_dose": "5.0",
+      "max_dose": "20",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited direct microbiome research available"
+    },
+    {
+      "bacteria_name": "Nutrient absorption",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances bioavailability of other compounds"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances bioavailability of other compounds and stimulates digestive enzymes"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Enhances nutrient absorption and supports digestive function"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "30088420",
+      "title": "Effects of turmeric with bioperine",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2018,
+      "study_type": "clinical"
+    }
+  ]
+}

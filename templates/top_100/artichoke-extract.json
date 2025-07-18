@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Artichoke extract",
+    "slug": "artichoke-extract",
+    "category": "herb",
+    "description": "Prebiotic vegetable extract with limited clinical evidence",
+    "gut_score": 5.0,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Cynara scolymus",
+      "Artichoke leaf extract"
+    ],
+    "dosage_info": {
+      "min_dose": "300.0",
+      "max_dose": "600",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Some prebiotic properties with limited evidence"
+    },
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Some prebiotic properties with limited clinical evidence"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Traditional digestive support with limited evidence"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited clinical evidence available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

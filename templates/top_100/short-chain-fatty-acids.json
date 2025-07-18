@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Short-chain fatty acids",
+    "slug": "short-chain-fatty-acids",
+    "category": "fatty_acid",
+    "description": "Beneficial metabolites from bacterial fermentation",
+    "gut_score": 7.5,
+    "confidence_score": 0.8,
+    "aliases": [
+      "SCFAs",
+      "Acetate",
+      "Propionate",
+      "Butyrate"
+    ],
+    "dosage_info": {
+      "min_dose": "300.0",
+      "max_dose": "1000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Primary metabolites from beneficial bacterial fermentation"
+    },
+    {
+      "bacteria_name": "Colonocytes",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Primary energy source for colon cells"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Primary metabolites from beneficial bacterial fermentation provide energy for colon cells"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Essential for colon health and reduce inflammation"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Multiple studies on SCFA benefits",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Postbiotics",
+    "slug": "postbiotics",
+    "category": "other",
+    "description": "Bioactive compounds from probiotic metabolism with gut barrier benefits",
+    "gut_score": 7.0,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Microbial metabolites",
+      "Bioactive postbiotics",
+      "Paraprobiotics"
+    ],
+    "dosage_info": {
+      "min_dose": "100.0",
+      "max_dose": "5000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances barrier function through tight junction stimulation"
+    },
+    {
+      "bacteria_name": "Gut barrier",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Modulates immune response via cytokine regulation"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances barrier function through tight junction stimulation and immune modulation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces IBS symptoms and improves sleep quality with mental health benefits"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "36184735",
+      "title": "Clinical evidence for postbiotics",
+      "authors": "Research Team",
+      "journal": "Gut Microbes",
+      "publication_year": 2022,
+      "study_type": "clinical"
+    }
+  ]
+}

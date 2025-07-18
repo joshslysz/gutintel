@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Activated charcoal",
+    "slug": "activated-charcoal",
+    "category": "other",
+    "description": "Absorbent compound with limited gut benefits and safety concerns",
+    "gut_score": 3.0,
+    "confidence_score": 0.4,
+    "aliases": [
+      "Activated carbon",
+      "Charcoal powder"
+    ],
+    "dosage_info": {
+      "min_dose": "1000.0",
+      "max_dose": "3000",
+      "unit": "mg",
+      "frequency": "as_needed"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited evidence with potential for nutrient binding"
+    },
+    {
+      "bacteria_name": "Toxins",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "May absorb toxins but also nutrients"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_endotoxins",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Limited evidence with potential for nutrient binding concerns"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May reduce gas and bloating but concerns about nutrient absorption"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited clinical evidence available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

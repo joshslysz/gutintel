@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Green tea extract",
+    "slug": "green-tea-extract",
+    "category": "polyphenol",
+    "description": "EGCG-rich extract with microbiome modulation and metabolic benefits",
+    "gut_score": 7.0,
+    "confidence_score": 0.7,
+    "aliases": [
+      "EGCG",
+      "Green tea polyphenols",
+      "Epigallocatechin gallate"
+    ],
+    "dosage_info": {
+      "min_dose": "400.0",
+      "max_dose": "800",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Akkermansia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Increases beneficial bacteria and enhances butyrate production"
+    },
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Modulates Firmicutes/Bacteroidetes ratio through anti-inflammatory pathways"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Modulates Firmicutes/Bacteroidetes ratio with enhanced butyrate production"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Metabolic syndrome management with inflammatory bowel disease support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "34493333",
+      "title": "Green tea polyphenol gut microbiota improvements",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2021,
+      "study_type": "clinical"
+    }
+  ]
+}

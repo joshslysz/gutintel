@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Marshmallow root",
+    "slug": "marshmallow-root",
+    "category": "herb",
+    "description": "Mucilaginous herb with demulcent and anti-inflammatory properties",
+    "gut_score": 6.0,
+    "confidence_score": 0.68,
+    "aliases": [
+      "Althaea officinalis",
+      "Mallows",
+      "Althea"
+    ],
+    "dosage_info": {
+      "min_dose": "1000.0",
+      "max_dose": "2000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Mucilage may support beneficial bacteria growth through polysaccharides"
+    },
+    {
+      "bacteria_name": "Gut mucosa",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Forms protective mucilage coating and soothes irritated mucous membranes"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Forms protective mucilage coating and reduces gut inflammation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "abdominal_pain",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces acid reflux and heartburn while soothing digestive inflammation"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "29372567",
+      "title": "Marshmallow root benefits and research",
+      "authors": "Research Team",
+      "journal": "Complementary Therapies in Medicine",
+      "publication_year": 2018,
+      "study_type": "clinical"
+    }
+  ]
+}

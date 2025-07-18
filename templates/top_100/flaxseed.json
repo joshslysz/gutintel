@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Flaxseed",
+    "slug": "flaxseed",
+    "category": "fiber",
+    "description": "Omega-3 rich seed with prebiotic fiber and anti-inflammatory properties",
+    "gut_score": 7.0,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Linum usitatissimum",
+      "Linseeds",
+      "Flax seeds"
+    ],
+    "dosage_info": {
+      "min_dose": "10000.0",
+      "max_dose": "20000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Prebiotic fiber fermentation promotes beneficial bacteria growth"
+    },
+    {
+      "bacteria_name": "Akkermansia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Omega-3 content and fiber promote butyrate-producing bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases SCFA production especially butyrate with improved gut barrier integrity"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "constipation",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Improves constipation and reduces gut inflammation with metabolic health support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "30371735",
+      "title": "Microbial fermentation of flaxseed fibers",
+      "authors": "Research Team",
+      "journal": "American Journal of Physiology",
+      "publication_year": 2019,
+      "study_type": "clinical"
+    }
+  ]
+}

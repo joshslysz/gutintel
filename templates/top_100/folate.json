@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Folate",
+    "slug": "folate",
+    "category": "vitamin",
+    "description": "B vitamin with limited direct gut microbiome research",
+    "gut_score": 5.5,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Folic acid",
+      "5-methyltetrahydrofolate",
+      "Folate supplement"
+    ],
+    "dosage_info": {
+      "min_dose": "400.0",
+      "max_dose": "1000",
+      "unit": "mcg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited direct gut microbiome research available"
+    },
+    {
+      "bacteria_name": "Immune cells",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Important for immune cell function"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Important for immune cell function and cellular metabolism"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May support gut health through immune and cellular support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited direct gut microbiome research available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

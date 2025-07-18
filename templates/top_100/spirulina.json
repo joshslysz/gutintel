@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Spirulina",
+    "slug": "spirulina",
+    "category": "other",
+    "description": "Blue-green algae with prebiotic properties but limited evidence",
+    "gut_score": 5.0,
+    "confidence_score": 0.55,
+    "aliases": [
+      "Arthrospira platensis",
+      "Blue-green algae"
+    ],
+    "dosage_info": {
+      "min_dose": "1000.0",
+      "max_dose": "8000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Prebiotic properties with limited gut-specific research"
+    },
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Prebiotic properties with limited clinical evidence"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May support digestive health with limited evidence"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited clinical evidence available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Bone broth",
+    "slug": "bone-broth",
+    "category": "other",
+    "description": "Collagen-rich broth with gut barrier support and anti-inflammatory properties",
+    "gut_score": 6.0,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Bone stock",
+      "Collagen broth",
+      "Gelatin broth"
+    ],
+    "dosage_info": {
+      "min_dose": "240000.0",
+      "max_dose": "480000",
+      "unit": "ml",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Provides collagen glycine and glutamine for gut lining repair"
+    },
+    {
+      "bacteria_name": "Pathogenic bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Anti-inflammatory effects may reduce pathogenic bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Provides collagen glycine and glutamine for gut lining repair"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces gut inflammation and improves leaky gut with digestive comfort support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "34804095",
+      "title": "Anti-inflammatory capacity of bone broth",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2021,
+      "study_type": "clinical"
+    }
+  ]
+}

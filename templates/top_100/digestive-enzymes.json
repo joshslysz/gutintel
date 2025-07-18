@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Digestive enzymes",
+    "slug": "digestive-enzymes",
+    "category": "other",
+    "description": "Multi-enzyme complexes with nutrient absorption and microbiome benefits",
+    "gut_score": 6.0,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Pancreatic enzymes",
+      "PERT",
+      "Multi-enzyme complexes"
+    ],
+    "dosage_info": {
+      "min_dose": "25000.0",
+      "max_dose": "50000",
+      "unit": "units",
+      "frequency": "with_meals"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Akkermansia muciniphila",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases beneficial bacteria and improves nutrient breakdown"
+    },
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Modulates microbiota composition and enhances digestive efficiency"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Improves fat and protein digestion with enhanced nutrient absorption"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces bloating and gas while improving nutrient absorption"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "29106956",
+      "title": "Supplementation of pancreatic enzymes",
+      "authors": "Research Team",
+      "journal": "Biochemical and Biophysical Research Communications",
+      "publication_year": 2018,
+      "study_type": "clinical"
+    }
+  ]
+}

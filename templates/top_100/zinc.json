@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Zinc",
+    "slug": "zinc",
+    "category": "mineral",
+    "description": "Essential mineral with gut barrier integrity and immune function benefits",
+    "gut_score": 7.0,
+    "confidence_score": 0.75,
+    "aliases": [
+      "Zinc gluconate",
+      "Zinc picolinate",
+      "Zinc sulfate"
+    ],
+    "dosage_info": {
+      "min_dose": "8.0",
+      "max_dose": "40",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut barrier",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Essential for tight junction protein synthesis and gut barrier integrity"
+    },
+    {
+      "bacteria_name": "Immune cells",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Critical for immune cell function and wound healing in gut tissue"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Essential for tight junction protein synthesis and immune cell function"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "diarrhea",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces diarrhea duration and supports gut barrier integrity with immune function enhancement"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Multiple studies on zinc deficiency and gut health",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

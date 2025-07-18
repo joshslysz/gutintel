@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Miso",
+    "slug": "miso",
+    "category": "other",
+    "description": "Fermented soybean paste with probiotics and beneficial metabolites",
+    "gut_score": 6.0,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Fermented soybean paste",
+      "Japanese miso"
+    ],
+    "dosage_info": {
+      "min_dose": "15000.0",
+      "max_dose": "30000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bacillus subtilis",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Contains beneficial bacteria and provides beneficial metabolites"
+    },
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Provides beneficial metabolites and supports gut health"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May support digestive health with anti-inflammatory effects"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "32184365",
+      "title": "Fermented foods and gut microbiome",
+      "authors": "Research Team",
+      "journal": "mSystems",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Human milk oligosaccharides",
+    "slug": "human-milk-oligosaccharides",
+    "category": "prebiotic",
+    "description": "Prebiotic oligosaccharides with selective bifidobacterial growth",
+    "gut_score": 8.0,
+    "confidence_score": 0.8,
+    "aliases": [
+      "HMOs",
+      "2'-fucosyllactose",
+      "LactoNneotetraose"
+    ],
+    "dosage_info": {
+      "min_dose": "4000.0",
+      "max_dose": "20000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Selectively feeds Bifidobacterium species with dose-dependent expansion"
+    },
+    {
+      "bacteria_name": "Anti-inflammatory cytokines",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases anti-inflammatory cytokines and reduces pathogen adhesion"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Modulates immune system development and reduces pathogen adhesion"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces IBS symptom severity and improves bloating with enhanced infection resistance"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "37630811",
+      "title": "Clinical studies on manufactured HMOs",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Butyrate",
+    "slug": "butyrate",
+    "category": "fatty_acid",
+    "description": "Primary short-chain fatty acid and energy source for colon cells",
+    "gut_score": 9.0,
+    "confidence_score": 0.9,
+    "aliases": [
+      "Sodium butyrate",
+      "Calcium-magnesium butyrate",
+      "Short-chain fatty acid"
+    ],
+    "dosage_info": {
+      "min_dose": "300.0",
+      "max_dose": "600",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Primary energy source for colonocytes providing 70% of energy needs"
+    },
+    {
+      "bacteria_name": "Pathogenic bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Histone deacetylase inhibitor strengthens tight junction proteins"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Strengthens tight junction proteins and serves as primary energy source for colonocytes"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Effective treatment for inflammatory bowel disease and leaky gut syndrome repair"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Multiple clinical trials showing dose-dependent effects",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

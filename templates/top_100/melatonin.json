@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Melatonin",
+    "slug": "melatonin",
+    "category": "other",
+    "description": "Hormone with circadian rhythm and gut microbiome modulation",
+    "gut_score": 6.0,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Nacetyl-5-methoxytryptamine",
+      "Pineal hormone"
+    ],
+    "dosage_info": {
+      "min_dose": "0.5",
+      "max_dose": "10",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases beneficial bacteria and modulates circadian rhythms"
+    },
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Restores diurnal microbiota patterns and reduces oxidative stress"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Improves sleep-related gut issues and reduces inflammation"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Studies on melatonin-microbiome interactions",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

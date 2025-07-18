@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Berberine",
+    "slug": "berberine",
+    "category": "other",
+    "description": "Plant alkaloid with powerful gut microbiota modulation and metabolic benefits",
+    "gut_score": 9.0,
+    "confidence_score": 0.9,
+    "aliases": [
+      "Berberine hydrochloride",
+      "Berberine HCl",
+      "From Berberis aristata"
+    ],
+    "dosage_info": {
+      "min_dose": "300.0",
+      "max_dose": "1500",
+      "unit": "mg",
+      "frequency": "twice_daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Modulates bile acid metabolism and inhibits harmful bacteria through multiple pathways"
+    },
+    {
+      "bacteria_name": "Akkermansia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Increases SCFA-producing bacteria and reduces pathogenic Proteobacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Reduces inflammatory markers and enhances gut barrier function through microbiota modulation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces bloating and gas while improving glucose metabolism and metabolic health"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Gut microbiome-related effects of berberine",
+      "authors": "Research Team",
+      "journal": "Nature Communications",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Inulin",
+    "slug": "inulin",
+    "category": "prebiotic",
+    "description": "Chicory-derived prebiotic fiber with selective bacterial fermentation properties",
+    "gut_score": 9.0,
+    "confidence_score": 0.95,
+    "aliases": [
+      "Chicory root fiber",
+      "Inulin-type fructans",
+      "ITF",
+      "β(2→1) fructans"
+    ],
+    "dosage_info": {
+      "min_dose": "3500.0",
+      "max_dose": "20000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Selective fermentation in colon by specific bacterial enzymes with cross-feeding effects"
+    },
+    {
+      "bacteria_name": "Faecalibacterium prausnitzii",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "β(2→1) fructan degradation produces SCFAs and enhances gut barrier function"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhanced SCFA production primarily acetate with moderate butyrate through selective fermentation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "constipation",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Relieves constipation and improves stool consistency with reduced bloating at appropriate doses"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "31707507",
+      "title": "Systematic review of inulin effects on gut microbiota",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2019,
+      "study_type": "clinical"
+    }
+  ]
+}

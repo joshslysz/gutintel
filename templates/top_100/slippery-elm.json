@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Slippery elm",
+    "slug": "slippery-elm",
+    "category": "herb",
+    "description": "Mucilaginous herb with demulcent properties and gut barrier support",
+    "gut_score": 6.5,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Ulmus rubra",
+      "Red elm",
+      "Indian elm"
+    ],
+    "dosage_info": {
+      "min_dose": "1200.0",
+      "max_dose": "2000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Mucilage supports beneficial bacteria growth and provides protective coating"
+    },
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Prebiotic effects and mucilage support gut barrier function"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Forms protective mucilage coating and promotes gut barrier function"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces bloating and gas while soothing digestive discomfort"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "28473832",
+      "title": "Prebiotic potential of herbal medicines",
+      "authors": "Research Team",
+      "journal": "Journal of Ethnopharmacology",
+      "publication_year": 2017,
+      "study_type": "clinical"
+    }
+  ]
+}

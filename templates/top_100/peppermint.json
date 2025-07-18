@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Peppermint",
+    "slug": "peppermint",
+    "category": "herb",
+    "description": "Enteric-coated peppermint oil with proven IBS symptom relief",
+    "gut_score": 8.5,
+    "confidence_score": 0.85,
+    "aliases": [
+      "Mentha piperita",
+      "Peppermint oil",
+      "Menthol",
+      "Enteric-coated peppermint oil"
+    ],
+    "dosage_info": {
+      "min_dose": "180.0",
+      "max_dose": "400",
+      "unit": "mg",
+      "frequency": "twice_daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Antispasmodic effects on gut muscles with potential microbiome modulation"
+    },
+    {
+      "bacteria_name": "Pathogenic bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Antimicrobial properties fight harmful bacteria while reducing gut inflammation"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Anti-inflammatory and antimicrobial effects with antispasmodic properties on gut muscles"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "abdominal_pain",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces IBS symptoms with strong evidence for decreasing abdominal pain and bloating"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "24100754",
+      "title": "Peppermint oil for IBS: systematic review",
+      "authors": "Research Team",
+      "journal": "Alimentary Pharmacology & Therapeutics",
+      "publication_year": 2014,
+      "study_type": "clinical"
+    }
+  ]
+}

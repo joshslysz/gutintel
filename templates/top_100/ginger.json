@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Ginger",
+    "slug": "ginger",
+    "category": "herb",
+    "description": "Traditional digestive herb with proven anti-inflammatory and motility benefits",
+    "gut_score": 8.0,
+    "confidence_score": 0.8,
+    "aliases": [
+      "Zingiber officinale",
+      "Ginger root",
+      "Shunthi",
+      "Adrak"
+    ],
+    "dosage_info": {
+      "min_dose": "250.0",
+      "max_dose": "1000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Promotes beneficial bacteria growth and reduces pro-inflammatory species"
+    },
+    {
+      "bacteria_name": "Alloprevotella",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases SCFA-producing bacteria while reducing pathogenic bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Reduces gut inflammation and stimulates digestive enzymes and motility"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces nausea and vomiting with improved gastric emptying and decreased bloating"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "33708178",
+      "title": "Gut microbiota variation with ginger juice",
+      "authors": "Research Team",
+      "journal": "Food & Function",
+      "publication_year": 2021,
+      "study_type": "clinical"
+    }
+  ]
+}

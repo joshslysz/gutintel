@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Omega-3 fatty acids",
+    "slug": "omega-3-fatty-acids",
+    "category": "fatty_acid",
+    "description": "Essential fatty acids with microbiome diversity and anti-inflammatory benefits",
+    "gut_score": 8.0,
+    "confidence_score": 0.8,
+    "aliases": [
+      "EPA",
+      "DHA",
+      "Alpha-linolenic acid",
+      "Fish oil"
+    ],
+    "dosage_info": {
+      "min_dose": "1000.0",
+      "max_dose": "4000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Lachnospiraceae",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Increases microbiome diversity and promotes butyrate-producing bacteria families"
+    },
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances intestinal alkaline phosphatase secretion and reduces LPS-producing bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Improves gut microbiome diversity and reduces metabolic endotoxemia through anti-inflammatory effects"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Increases gut microbiome diversity and reduces inflammatory markers with improved barrier function"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "28894110",
+      "title": "Omega-3 fatty acids correlate with gut microbiome diversity",
+      "authors": "Research Team",
+      "journal": "Microbiome",
+      "publication_year": 2017,
+      "study_type": "clinical"
+    }
+  ]
+}

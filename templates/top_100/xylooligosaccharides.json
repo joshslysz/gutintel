@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Xylooligosaccharides",
+    "slug": "xylooligosaccharides",
+    "category": "prebiotic",
+    "description": "Prebiotic oligosaccharides with selective bacterial growth",
+    "gut_score": 5.0,
+    "confidence_score": 0.62,
+    "aliases": [
+      "XOS",
+      "Xylo-oligosaccharides"
+    ],
+    "dosage_info": {
+      "min_dose": "1000.0",
+      "max_dose": "8000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Selective fermentation with moderate bacterial stimulation"
+    },
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited broader microbiome effects beyond bifidobacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Moderate bifidobacterial growth with limited SCFA production"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "gas",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Moderate digestive benefits with antioxidant support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Studies on XOS prebiotic effects",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

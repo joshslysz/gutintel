@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Glutamine",
+    "slug": "glutamine",
+    "category": "other",
+    "description": "Amino acid serving as preferred fuel for intestinal cells",
+    "gut_score": 8.0,
+    "confidence_score": 0.8,
+    "aliases": [
+      "L-glutamine",
+      "Alanyl-glutamine"
+    ],
+    "dosage_info": {
+      "min_dose": "10000.0",
+      "max_dose": "15000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Enterocytes",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Preferred fuel for enterocytes and colonocytes enhancing cellular function"
+    },
+    {
+      "bacteria_name": "Gut barrier",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Enhances tight junction protein expression and reduces intestinal permeability"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Maintains nucleotide metabolism and enhances tight junction protein expression"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Intestinal barrier restoration with reduced gut inflammation and improved digestive comfort"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "24965526",
+      "title": "Glutamine and intestinal barrier function",
+      "authors": "Research Team",
+      "journal": "Clinical Nutrition",
+      "publication_year": 2014,
+      "study_type": "clinical"
+    }
+  ]
+}

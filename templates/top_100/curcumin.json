@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Curcumin",
+    "slug": "curcumin",
+    "category": "polyphenol",
+    "description": "Turmeric-derived compound with powerful anti-inflammatory and gut barrier benefits",
+    "gut_score": 8.5,
+    "confidence_score": 0.85,
+    "aliases": [
+      "Turmeric",
+      "Curcuminoids",
+      "Nano-curcumin",
+      "Liposomal curcumin"
+    ],
+    "dosage_info": {
+      "min_dose": "500.0",
+      "max_dose": "2000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Increases beneficial bacteria through NF-κB pathway inhibition and barrier enhancement"
+    },
+    {
+      "bacteria_name": "Enterobacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Anti-inflammatory effects reduce harmful bacteria while promoting beneficial growth"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Inhibits NF-κB pathway and enhances intestinal barrier function through alkaline phosphatase"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces bloating and gas while improving digestive comfort through anti-inflammatory effects"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "32824993",
+      "title": "Interaction between Gut Microbiota and Curcumin",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

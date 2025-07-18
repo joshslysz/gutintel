@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Ox bile",
+    "slug": "ox-bile",
+    "category": "other",
+    "description": "Bile acid supplement with fat digestion support",
+    "gut_score": 4.0,
+    "confidence_score": 0.5,
+    "aliases": [
+      "Bile acids",
+      "Bile salts"
+    ],
+    "dosage_info": {
+      "min_dose": "100.0",
+      "max_dose": "500",
+      "unit": "mg",
+      "frequency": "with_meals"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Fat digestion",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Helps fat digestion and absorption"
+    },
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Helps fat digestion and absorption"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May reduce bloating from fat maldigestion"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited clinical evidence available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

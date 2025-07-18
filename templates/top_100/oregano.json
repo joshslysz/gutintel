@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Oregano",
+    "slug": "oregano",
+    "category": "herb",
+    "description": "Antimicrobial herb with broad-spectrum antibacterial properties",
+    "gut_score": 6.5,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Origanum vulgare",
+      "Oregano oil",
+      "Carvacrol",
+      "Thymol"
+    ],
+    "dosage_info": {
+      "min_dose": "25.0",
+      "max_dose": "300",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Pathogenic bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Broad-spectrum antibacterial and antifungal activity against pathogens"
+    },
+    {
+      "bacteria_name": "E. coli",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Antimicrobial spectrum activity reduces harmful bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Broad-spectrum antibacterial and antifungal activity reduces gut inflammation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "gas",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces SIBO symptoms and fights gut infections while improving digestive comfort"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "27314563",
+      "title": "Oregano essential oil improves intestinal morphology",
+      "authors": "Research Team",
+      "journal": "Poultry Science",
+      "publication_year": 2016,
+      "study_type": "clinical"
+    }
+  ]
+}

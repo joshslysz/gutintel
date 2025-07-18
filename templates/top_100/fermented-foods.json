@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Fermented foods",
+    "slug": "fermented-foods",
+    "category": "other",
+    "description": "Category of foods with live beneficial bacteria and enhanced bioavailability",
+    "gut_score": 8.0,
+    "confidence_score": 0.8,
+    "aliases": [
+      "Cultured foods",
+      "Probiotic foods",
+      "Lacto-fermented foods"
+    ],
+    "dosage_info": {
+      "min_dose": "1.0",
+      "max_dose": "2",
+      "unit": "servings",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Live beneficial bacteria increase microbiome diversity and reduce pathogenic bacteria"
+    },
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Cultured foods enhance SCFA production and improve gut barrier function"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases microbiome diversity and enhances SCFA production with improved gut barrier function"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces inflammation and improves digestive symptoms with immune function support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "32184365",
+      "title": "Consumption of Fermented Foods and Gut Microbiome",
+      "authors": "Research Team",
+      "journal": "mSystems",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

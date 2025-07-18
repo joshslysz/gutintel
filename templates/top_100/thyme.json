@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Thyme",
+    "slug": "thyme",
+    "category": "herb",
+    "description": "Antimicrobial herb with limited gut microbiome research",
+    "gut_score": 5.5,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Thymus vulgaris",
+      "Thyme oil",
+      "Thymol",
+      "Garden thyme"
+    ],
+    "dosage_info": {
+      "min_dose": "100.0",
+      "max_dose": "300",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Pathogenic bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Similar to oregano with limited specific research"
+    },
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Antimicrobial properties with limited clinical evidence"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "gas",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Traditional digestive support with limited evidence"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "32512899",
+      "title": "Thymus vulgaris essential oil effects",
+      "authors": "Research Team",
+      "journal": "Molecules",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

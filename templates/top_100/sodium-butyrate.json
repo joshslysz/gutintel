@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Sodium butyrate",
+    "slug": "sodium-butyrate",
+    "category": "fatty_acid",
+    "description": "Direct short-chain fatty acid supplementation with barrier benefits",
+    "gut_score": 6.0,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Butyric acid sodium salt",
+      "Short-chain fatty acid"
+    ],
+    "dosage_info": {
+      "min_dose": "150.0",
+      "max_dose": "600",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Direct short-chain fatty acid supplementation feeds colonocytes"
+    },
+    {
+      "bacteria_name": "Gut barrier",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Modulates gut microbiota composition and enhances barrier function"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Reduces inflammation through HDAC inhibition and improves insulin sensitivity"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "abdominal_pain",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces abdominal pain in IBS and improves Crohn's disease symptoms"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Clinical trials in IBS and IBD",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

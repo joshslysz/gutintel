@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Beta-glucan",
+    "slug": "beta-glucan",
+    "category": "fiber",
+    "description": "Soluble fiber from oats and barley with immune and metabolic benefits",
+    "gut_score": 7.0,
+    "confidence_score": 0.78,
+    "aliases": [
+      "β-glucan",
+      "Oat beta-glucan",
+      "Barley beta-glucan",
+      "Yeast beta-glucan"
+    ],
+    "dosage_info": {
+      "min_dose": "3000.0",
+      "max_dose": "10000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Akkermansia muciniphila",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Variable fermentation based on structure with immune modulation"
+    },
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "SCFA production and cholesterol reduction through bacterial fermentation"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Moderate SCFA production with enhanced immune function and cholesterol reduction"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Improved cholesterol levels and enhanced immune response with moderate gut health benefits"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "33231600",
+      "title": "Prebiotic potential of beta-glucan",
+      "authors": "Research Team",
+      "journal": "Foods",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

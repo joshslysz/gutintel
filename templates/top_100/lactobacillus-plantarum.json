@@ -1,0 +1,70 @@
+{
+  "ingredient": {
+    "name": "Lactobacillus plantarum",
+    "slug": "lactobacillus-plantarum",
+    "category": "probiotic",
+    "description": "Versatile probiotic strain with gut-brain axis and stress reduction benefits",
+    "gut_score": 8.0,
+    "confidence_score": 0.85,
+    "aliases": [
+      "L. plantarum",
+      "Lactiplantibacillus plantarum",
+      "299v",
+      "DR7",
+      "P8"
+    ],
+    "dosage_info": {
+      "min_dose": "1000000000.0",
+      "max_dose": "100000000000",
+      "unit": "CFU",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Excellent GI survival with good adhesion capacity and strain-specific colonization"
+    },
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Bacteriocin production and competitive exclusion enhance beneficial bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Balances Th1/Th2 responses and strengthens intestinal barrier through immune modulation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "gas",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces stress and anxiety with P8 strain while improving IBS symptoms with 299v strain"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "30266270",
+      "title": "P8 strain for stress reduction",
+      "authors": "Research Team",
+      "journal": "Beneficial Microbes",
+      "publication_year": 2018,
+      "study_type": "clinical"
+    }
+  ]
+}

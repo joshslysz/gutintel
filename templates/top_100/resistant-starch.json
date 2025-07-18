@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Resistant starch",
+    "slug": "resistant-starch",
+    "category": "prebiotic",
+    "description": "Specialized starch that resists digestion and promotes beneficial bacterial growth",
+    "gut_score": 9.0,
+    "confidence_score": 0.92,
+    "aliases": [
+      "RS",
+      "RS2",
+      "High-amylose maize starch",
+      "Retrograded starch"
+    ],
+    "dosage_info": {
+      "min_dose": "15000.0",
+      "max_dose": "40000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Ruminococcus bromii",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Primary degrader of resistant starch with specialized starch-degrading enzymes"
+    },
+    {
+      "bacteria_name": "Faecalibacterium prausnitzii",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Cross-feeding networks from starch degradation promote butyrate-producing bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Highest butyrate production among prebiotics through specialized bacterial fermentation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Improves glucose metabolism and weight management with enhanced satiety and stool form"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "38847603",
+      "title": "Recent systematic review of resistant starch",
+      "authors": "Research Team",
+      "journal": "Clinical Nutrition",
+      "publication_year": 2024,
+      "study_type": "clinical"
+    }
+  ]
+}

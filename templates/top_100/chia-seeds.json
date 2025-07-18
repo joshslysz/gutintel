@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Chia seeds",
+    "slug": "chia-seeds",
+    "category": "fiber",
+    "description": "Omega-3 rich seeds with soluble fiber and anti-inflammatory properties",
+    "gut_score": 7.0,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Salvia hispanica L.",
+      "Chia seeds"
+    ],
+    "dosage_info": {
+      "min_dose": "15000.0",
+      "max_dose": "30000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Prebiotic fiber supports beneficial bacteria growth and SCFA production"
+    },
+    {
+      "bacteria_name": "Enterococcus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Soluble fiber fermentation promotes SCFA-producing bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases acetate butyrate and propionate production with improved gut barrier function"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces gut inflammation and improves digestive symptoms with metabolic health support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "34576045",
+      "title": "Effect of Chia Associated with High-Fat Diet",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2021,
+      "study_type": "clinical"
+    }
+  ]
+}

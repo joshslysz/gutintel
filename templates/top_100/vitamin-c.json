@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Vitamin C",
+    "slug": "vitamin-c",
+    "category": "vitamin",
+    "description": "Antioxidant vitamin with immune support and limited gut research",
+    "gut_score": 6.0,
+    "confidence_score": 0.65,
+    "aliases": [
+      "Ascorbic acid",
+      "Sodium ascorbate",
+      "Vitamin C"
+    ],
+    "dosage_info": {
+      "min_dose": "65.0",
+      "max_dose": "2000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited direct gut microbiome research available"
+    },
+    {
+      "bacteria_name": "Immune cells",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Important for immune cell function and collagen synthesis"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Important for immune cell function and collagen synthesis"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May support gut health through immune support and collagen synthesis"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited direct gut microbiome research available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Coconut oil",
+    "slug": "coconut-oil",
+    "category": "fatty_acid",
+    "description": "Medium-chain triglycerides with antimicrobial and barrier support properties",
+    "gut_score": 6.0,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Virgin coconut oil",
+      "MCT oil",
+      "Medium-chain triglycerides"
+    ],
+    "dosage_info": {
+      "min_dose": "15000.0",
+      "max_dose": "30000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Provides lauric acid with antimicrobial properties"
+    },
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Provides lauric acid with antimicrobial properties and supports beneficial bacteria"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May reduce pathogenic bacteria and support gut barrier function"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "30326086",
+      "title": "Differential effects of coconut versus soy oil",
+      "authors": "Research Team",
+      "journal": "BMC Genomics",
+      "publication_year": 2018,
+      "study_type": "clinical"
+    }
+  ]
+}

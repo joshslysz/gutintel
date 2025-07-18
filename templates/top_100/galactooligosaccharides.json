@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Galactooligosaccharides",
+    "slug": "galactooligosaccharides",
+    "category": "prebiotic",
+    "description": "Prebiotic oligosaccharides with strong bifidobacterial stimulation",
+    "gut_score": 8.0,
+    "confidence_score": 0.85,
+    "aliases": [
+      "GOS",
+      "Transgalactooligosaccharides",
+      "β-galactooligosaccharides"
+    ],
+    "dosage_info": {
+      "min_dose": "1300.0",
+      "max_dose": "5000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Enzymatic degradation by β-galactosidases with highly selective bacterial growth"
+    },
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Selective bacterial growth and SCFA production enhance beneficial bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Strong bifidobacterial stimulation with moderate SCFA production and enhanced immune function"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "constipation",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduced constipation and improved gut comfort with enhanced immune response"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "39358591",
+      "title": "Recent consensus review on GOS",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2024,
+      "study_type": "clinical"
+    }
+  ]
+}

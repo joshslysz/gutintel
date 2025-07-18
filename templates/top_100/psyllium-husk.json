@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Psyllium husk",
+    "slug": "psyllium-husk",
+    "category": "fiber",
+    "description": "Soluble fiber with excellent stool-forming properties and gut barrier benefits",
+    "gut_score": 8.0,
+    "confidence_score": 0.89,
+    "aliases": [
+      "Psyllium",
+      "Ispaghula husk",
+      "Plantago ovata",
+      "Psyllium fiber"
+    ],
+    "dosage_info": {
+      "min_dose": "5000.0",
+      "max_dose": "15000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Faecalibacterium prausnitzii",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Partial fermentation with water-holding capacity promotes beneficial bacteria"
+    },
+    {
+      "bacteria_name": "Bacteroides",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "SCFA production and gut barrier enhancement support beneficial bacteria growth"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Moderate SCFA production and enhanced gut barrier function through mucilage properties"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "constipation",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Excellent constipation relief with improved stool consistency and IBS symptom management"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "31944095",
+      "title": "Psyllium husk for gut health",
+      "authors": "Research Team",
+      "journal": "Gastroenterology Research",
+      "publication_year": 2019,
+      "study_type": "clinical"
+    }
+  ]
+}

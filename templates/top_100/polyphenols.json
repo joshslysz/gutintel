@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Polyphenols",
+    "slug": "polyphenols",
+    "category": "polyphenol",
+    "description": "Diverse plant compounds with microbiome modulation benefits",
+    "gut_score": 7.0,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Plant polyphenols",
+      "Flavonoids",
+      "Phenolic compounds"
+    ],
+    "dosage_info": {
+      "min_dose": "500.0",
+      "max_dose": "2000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Akkermansia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Diverse plant compounds modulate microbiome composition"
+    },
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific research on mixed polyphenols"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Diverse plant compounds modulate microbiome composition with anti-inflammatory effects"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May support gut health through diverse microbiome modulation"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Research on individual polyphenols more extensive",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

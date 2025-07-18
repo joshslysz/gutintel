@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Fennel",
+    "slug": "fennel",
+    "category": "herb",
+    "description": "Carminative herb with digestive support and antimicrobial properties",
+    "gut_score": 7.0,
+    "confidence_score": 0.72,
+    "aliases": [
+      "Foeniculum vulgare",
+      "Fennel seeds",
+      "Saunf",
+      "Anethole"
+    ],
+    "dosage_info": {
+      "min_dose": "100.0",
+      "max_dose": "600",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Supports beneficial bacteria growth and improves gut microbiome diversity"
+    },
+    {
+      "bacteria_name": "Pathogenic bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Antimicrobial properties fight harmful bacteria while supporting digestion"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Reduces gut inflammation and provides carminative properties for digestive support"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces bloating and gas with improved digestion and gut motility support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "35269469",
+      "title": "Effect of fennel seed extract on STAT signaling",
+      "authors": "Research Team",
+      "journal": "Food Chemistry",
+      "publication_year": 2022,
+      "study_type": "clinical"
+    }
+  ]
+}

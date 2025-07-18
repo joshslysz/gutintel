@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Bentonite clay",
+    "slug": "bentonite-clay",
+    "category": "other",
+    "description": "Absorbent clay with limited evidence and safety concerns",
+    "gut_score": 3.0,
+    "confidence_score": 0.35,
+    "aliases": [
+      "Montmorillonite clay",
+      "Bentonite clay"
+    ],
+    "dosage_info": {
+      "min_dose": "1000.0",
+      "max_dose": "2000",
+      "unit": "mg",
+      "frequency": "as_needed"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited evidence with safety concerns"
+    },
+    {
+      "bacteria_name": "Toxins",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "May absorb toxins but safety concerns exist"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_endotoxins",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Limited evidence with safety concerns"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May reduce digestive discomfort but safety concerns limit use"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited clinical evidence available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

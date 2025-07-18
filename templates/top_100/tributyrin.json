@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Tributyrin",
+    "slug": "tributyrin",
+    "category": "fatty_acid",
+    "description": "Butyric acid precursor with superior gut barrier benefits",
+    "gut_score": 7.0,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Glyceryl tributyrate",
+      "Butyric acid precursor",
+      "Pre-butyrate"
+    ],
+    "dosage_info": {
+      "min_dose": "300.0",
+      "max_dose": "4000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Lachnospiraceae",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Slowly releases butyric acid in intestines and increases beneficial bacteria"
+    },
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances tight junction proteins and reduces pathogenic bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Slowly releases butyric acid and enhances tight junction proteins"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "diarrhea",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces diarrhea and improves IBS-D symptoms with enhanced barrier integrity"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "37389721",
+      "title": "Tributyrin alleviates gut microbiota dysbiosis",
+      "authors": "Research Team",
+      "journal": "PLoS One",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

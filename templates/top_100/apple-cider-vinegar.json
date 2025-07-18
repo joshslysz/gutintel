@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Apple cider vinegar",
+    "slug": "apple-cider-vinegar",
+    "category": "other",
+    "description": "Fermented vinegar with acetate and antimicrobial properties",
+    "gut_score": 5.0,
+    "confidence_score": 0.6,
+    "aliases": [
+      "ACV",
+      "Acetic acid",
+      "Fermented apple juice"
+    ],
+    "dosage_info": {
+      "min_dose": "15000.0",
+      "max_dose": "30000",
+      "unit": "ml",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Akkermansia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Provides acetate directly and modulates gut pH"
+    },
+    {
+      "bacteria_name": "Hungatella",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Anti-inflammatory effects and antimicrobial properties"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Provides acetate directly and modulates gut pH with anti-inflammatory effects"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May reduce bloating and support blood sugar control with antimicrobial properties"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "35059231",
+      "title": "Beneficial effect of vinegar consumption",
+      "authors": "Research Team",
+      "journal": "Food Research International",
+      "publication_year": 2022,
+      "study_type": "clinical"
+    }
+  ]
+}

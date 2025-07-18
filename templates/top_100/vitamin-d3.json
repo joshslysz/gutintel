@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Vitamin D3",
+    "slug": "vitamin-d3",
+    "category": "vitamin",
+    "description": "Fat-soluble vitamin with immune modulation and barrier function benefits",
+    "gut_score": 7.0,
+    "confidence_score": 0.75,
+    "aliases": [
+      "Cholecalciferol",
+      "Vitamin D3"
+    ],
+    "dosage_info": {
+      "min_dose": "1000.0",
+      "max_dose": "4000",
+      "unit": "IU",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut barrier",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Modulates immune function and supports gut barrier integrity"
+    },
+    {
+      "bacteria_name": "Immune cells",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Critical for immune cell function and inflammatory response regulation"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Modulates immune function and supports gut barrier integrity through multiple pathways"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Supports gut barrier integrity and immune function with reduced inflammatory response"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Multiple studies on vitamin D and gut health",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

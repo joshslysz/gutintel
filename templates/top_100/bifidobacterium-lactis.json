@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Bifidobacterium lactis",
+    "slug": "bifidobacterium-lactis",
+    "category": "probiotic",
+    "description": "Well-researched probiotic with excellent survival and colonization properties",
+    "gut_score": 9.0,
+    "confidence_score": 0.92,
+    "aliases": [
+      "B. lactis",
+      "B. animalis subsp. lactis",
+      "BB-12",
+      "HN019"
+    ],
+    "dosage_info": {
+      "min_dose": "1000000000.0",
+      "max_dose": "100000000000",
+      "unit": "CFU",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bacteroides",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Survives gastric transit and colonizes colon through strain-specific adherence"
+    },
+    {
+      "bacteria_name": "Enterobacteriaceae",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Competitive exclusion and bile acid metabolism reduce harmful bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Significant butyrate and acetate production through colonic fermentation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "constipation",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces whole gut transit time by 49±30h to 21±32h in clinical trials"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "39356506",
+      "title": "Bifidobacterium animalis subsp. lactis HN019 for constipation",
+      "authors": "Research Team",
+      "journal": "Journal of Functional Foods",
+      "publication_year": 2024,
+      "study_type": "clinical"
+    }
+  ]
+}

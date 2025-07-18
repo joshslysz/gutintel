@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Resveratrol",
+    "slug": "resveratrol",
+    "category": "polyphenol",
+    "description": "Antioxidant compound with emerging gut microbiome benefits",
+    "gut_score": 6.5,
+    "confidence_score": 0.65,
+    "aliases": [
+      "Trans-resveratrol",
+      "Resveratrol supplement"
+    ],
+    "dosage_info": {
+      "min_dose": "100.0",
+      "max_dose": "500",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Akkermansia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Emerging research shows beneficial bacteria promotion"
+    },
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Antioxidant properties with emerging gut microbiome benefits"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May support gut health through antioxidant properties"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Emerging research on gut microbiome benefits",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Kefir",
+    "slug": "kefir",
+    "category": "other",
+    "description": "Fermented milk drink with diverse probiotic strains and bioactive compounds",
+    "gut_score": 8.0,
+    "confidence_score": 0.8,
+    "aliases": [
+      "Milk kefir",
+      "Kefir grains",
+      "Fermented milk"
+    ],
+    "dosage_info": {
+      "min_dose": "150.0",
+      "max_dose": "250",
+      "unit": "ml",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Enhances microbiome diversity and modulates immune response"
+    },
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Produces bioactive compounds and supports beneficial bacteria growth"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances microbiome diversity and modulates immune response through bioactive compounds"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces digestive symptoms and improves metabolic parameters with mental health support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "31467609",
+      "title": "Effects of Regular Kefir Consumption on Gut Microbiota",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2019,
+      "study_type": "clinical"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Fructooligosaccharides",
+    "slug": "fructooligosaccharides",
+    "category": "prebiotic",
+    "description": "Short-chain fructans with selective bifidobacterial growth properties",
+    "gut_score": 8.0,
+    "confidence_score": 0.86,
+    "aliases": [
+      "FOS",
+      "Oligofructose",
+      "Short-chain fructooligosaccharides",
+      "β(2→1) fructans"
+    ],
+    "dosage_info": {
+      "min_dose": "2500.0",
+      "max_dose": "10000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Rapid fermentation in proximal colon with highly selective bifidobacterial growth"
+    },
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Cross-feeding effects and selective fermentation support beneficial bacteria growth"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhanced bifidobacterial growth with moderate SCFA production and improved mineral absorption"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "constipation",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Improved stool frequency and reduced constipation with enhanced immune function"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "36712525",
+      "title": "Age-dependent effects of FOS",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

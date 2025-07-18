@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Lactobacillus rhamnosus GG",
+    "slug": "lactobacillus-rhamnosus-gg",
+    "category": "probiotic",
+    "description": "Clinically proven probiotic strain with extensive research for digestive health",
+    "gut_score": 9.5,
+    "confidence_score": 0.95,
+    "aliases": [
+      "LGG",
+      "L. rhamnosus GG",
+      "ATCC 53103"
+    ],
+    "dosage_info": {
+      "min_dose": "1000000000.0",
+      "max_dose": "100000000000",
+      "unit": "CFU",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Enhances Bifidobacterium through lectin-like proteins and biofilm formation"
+    },
+    {
+      "bacteria_name": "Salmonella",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Pili proteins inhibit pathogen adhesion and preserves epithelial integrity"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases IL-10 and IL-12 in macrophages while reducing inflammatory markers"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "diarrhea",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces antibiotic-associated diarrhea by 43% and acute diarrhea duration by 1.1 days"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "30741841",
+      "title": "Thirty Years of Research on Lactobacillus rhamnosus GG",
+      "authors": "Research Team",
+      "journal": "Microorganisms",
+      "publication_year": 2019,
+      "study_type": "clinical"
+    }
+  ]
+}

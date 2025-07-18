@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Almonds",
+    "slug": "almonds",
+    "category": "other",
+    "description": "Tree nut with prebiotic effects and healthy fats for gut support",
+    "gut_score": 7.0,
+    "confidence_score": 0.8,
+    "aliases": [
+      "Amygdalus communis",
+      "Sweet almonds"
+    ],
+    "dosage_info": {
+      "min_dose": "28000.0",
+      "max_dose": "56000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Prebiotic effects and healthy fats increase beneficial bacteria growth"
+    },
+    {
+      "bacteria_name": "Roseburia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Butyrate production and prebiotic effects support SCFA-producing bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases butyrate production with prebiotic effects and enhanced SCFA production"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Supports gut barrier function and reduces inflammation through prebiotic effects"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "24780090",
+      "title": "Prebiotic effects of almonds and almond skins",
+      "authors": "Research Team",
+      "journal": "Anaerobe",
+      "publication_year": 2014,
+      "study_type": "clinical"
+    }
+  ]
+}

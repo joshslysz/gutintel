@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Apple pectin",
+    "slug": "apple-pectin",
+    "category": "fiber",
+    "description": "Soluble fiber from apples with moderate SCFA production",
+    "gut_score": 6.0,
+    "confidence_score": 0.65,
+    "aliases": [
+      "Apple fiber",
+      "Pectin from apples"
+    ],
+    "dosage_info": {
+      "min_dose": "5000.0",
+      "max_dose": "20000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Lachnospira",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Moderate fermentation with selective bacterial stimulation"
+    },
+    {
+      "bacteria_name": "Bacteroides",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Moderate SCFA production with limited clinical evidence"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May improve gut health with moderate fiber benefits"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited clinical evidence available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

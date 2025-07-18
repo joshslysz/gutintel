@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Licorice root",
+    "slug": "licorice-root",
+    "category": "herb",
+    "description": "Traditional herb with anti-inflammatory and ulcer-healing properties",
+    "gut_score": 7.0,
+    "confidence_score": 0.75,
+    "aliases": [
+      "Glycyrrhiza glabra",
+      "DGL",
+      "Deglycyrrhizinated licorice",
+      "Yashtimadhu"
+    ],
+    "dosage_info": {
+      "min_dose": "200.0",
+      "max_dose": "600",
+      "unit": "mg",
+      "frequency": "twice_daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Supports beneficial bacteria growth and stimulates mucus production"
+    },
+    {
+      "bacteria_name": "H. pylori",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Fights H. pylori and other pathogens through antimicrobial compounds"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Reduces gut inflammation and stimulates mucus production"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "abdominal_pain",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces acid reflux and heartburn while healing gastric ulcers"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "32671062",
+      "title": "Glycyrrhiza glabra (Licorice) review",
+      "authors": "Research Team",
+      "journal": "Phytotherapy Research",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

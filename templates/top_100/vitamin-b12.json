@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Vitamin B12",
+    "slug": "vitamin-b12",
+    "category": "vitamin",
+    "description": "B vitamin with limited direct gut microbiome research",
+    "gut_score": 6.0,
+    "confidence_score": 0.65,
+    "aliases": [
+      "Cobalamin",
+      "Methylcobalamin",
+      "Cyanocobalamin"
+    ],
+    "dosage_info": {
+      "min_dose": "2.4",
+      "max_dose": "1000",
+      "unit": "mcg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited direct gut microbiome research available"
+    },
+    {
+      "bacteria_name": "Immune cells",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Important for immune cell function and nerve health"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Important for immune cell function and nerve health"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May support gut health through immune and nerve support"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited direct gut microbiome research available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

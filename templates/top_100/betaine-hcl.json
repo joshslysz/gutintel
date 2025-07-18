@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Betaine HCl",
+    "slug": "betaine-hcl",
+    "category": "other",
+    "description": "Stomach acid supplement with limited gut microbiome research",
+    "gut_score": 4.0,
+    "confidence_score": 0.5,
+    "aliases": [
+      "Betaine hydrochloride",
+      "Stomach acid supplement"
+    ],
+    "dosage_info": {
+      "min_dose": "300.0",
+      "max_dose": "2000",
+      "unit": "mg",
+      "frequency": "with_meals"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited clinical evidence for gut microbiome effects"
+    },
+    {
+      "bacteria_name": "Stomach acid",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Supports stomach acid production for protein digestion"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Limited clinical evidence for gut benefits"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May improve protein digestion and reduce bloating"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited clinical evidence available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

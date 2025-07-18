@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Kombucha",
+    "slug": "kombucha",
+    "category": "other",
+    "description": "Fermented tea with diverse probiotics and antioxidant properties",
+    "gut_score": 6.0,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Fermented tea",
+      "SCOBY tea"
+    ],
+    "dosage_info": {
+      "min_dose": "120000.0",
+      "max_dose": "240000",
+      "unit": "ml",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Diverse probiotics",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Provides various probiotics and supports microbiome diversity"
+    },
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances gut microbial activity and provides beneficial compounds"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May support digestive health with antioxidant effects"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "32184365",
+      "title": "Fermented foods and gut microbiome",
+      "authors": "Research Team",
+      "journal": "mSystems",
+      "publication_year": 2020,
+      "study_type": "clinical"
+    }
+  ]
+}

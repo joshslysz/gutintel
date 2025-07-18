@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Magnesium",
+    "slug": "magnesium",
+    "category": "mineral",
+    "description": "Essential mineral with muscle relaxation and stool-softening properties",
+    "gut_score": 6.5,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Magnesium oxide",
+      "Magnesium citrate",
+      "Magnesium glycinate"
+    ],
+    "dosage_info": {
+      "min_dose": "200.0",
+      "max_dose": "400",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut motility",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Muscle relaxation properties support normal gut motility"
+    },
+    {
+      "bacteria_name": "Stool consistency",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Osmotic effects and muscle relaxation improve stool consistency"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Muscle relaxation and osmotic effects support normal gut motility"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "constipation",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Effective for constipation relief through muscle relaxation and osmotic effects"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Studies on magnesium for constipation",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

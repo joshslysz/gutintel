@@ -1,0 +1,70 @@
+{
+  "ingredient": {
+    "name": "Lactobacillus acidophilus",
+    "slug": "lactobacillus-acidophilus",
+    "category": "probiotic",
+    "description": "Classic probiotic strain with decades of research for digestive health",
+    "gut_score": 8.5,
+    "confidence_score": 0.88,
+    "aliases": [
+      "L. acidophilus",
+      "Acidophilus",
+      "NCFM",
+      "La-14",
+      "DDS-1"
+    ],
+    "dosage_info": {
+      "min_dose": "1000000000.0",
+      "max_dose": "60000000000",
+      "unit": "CFU",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances Bifidobacterium through lactic acid production and competitive exclusion"
+    },
+    {
+      "bacteria_name": "Pathogenic bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Bacteriocin production and immune modulation reduce harmful bacteria"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Reduces pro-inflammatory cytokines and enhances mucosal immunity through immune modulation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "abdominal_pain",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces IBS pain by 30% with NCFM strain and improves lactose intolerance symptoms"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "21876922",
+      "title": "NCFM strain for IBS treatment",
+      "authors": "Research Team",
+      "journal": "Gastroenterology",
+      "publication_year": 2011,
+      "study_type": "clinical"
+    }
+  ]
+}

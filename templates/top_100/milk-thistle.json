@@ -1,0 +1,69 @@
+{
+  "ingredient": {
+    "name": "Milk thistle",
+    "slug": "milk-thistle",
+    "category": "herb",
+    "description": "Hepatoprotective herb with liver support and gut-liver axis benefits",
+    "gut_score": 5.5,
+    "confidence_score": 0.65,
+    "aliases": [
+      "Silybum marianum",
+      "Silymarin",
+      "Silybin",
+      "Mary thistle"
+    ],
+    "dosage_info": {
+      "min_dose": "200.0",
+      "max_dose": "420",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut-liver axis",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited direct gut microbiome research available"
+    },
+    {
+      "bacteria_name": "Liver function",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Supports liver function and detoxification through gut-liver axis"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Reduces liver and systemic inflammation with antioxidant protection"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Supports liver health and may improve fat digestion"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "17548789",
+      "title": "Advances in use of milk thistle",
+      "authors": "Research Team",
+      "journal": "Planta Medica",
+      "publication_year": 2007,
+      "study_type": "clinical"
+    }
+  ]
+}

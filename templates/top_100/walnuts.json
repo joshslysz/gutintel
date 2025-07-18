@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Walnuts",
+    "slug": "walnuts",
+    "category": "other",
+    "description": "Tree nut with omega-3 fatty acids and prebiotic fiber benefits",
+    "gut_score": 7.0,
+    "confidence_score": 0.8,
+    "aliases": [
+      "Juglans regia",
+      "English walnuts"
+    ],
+    "dosage_info": {
+      "min_dose": "28000.0",
+      "max_dose": "42000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Roseburia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Enhances butyrate production and supports urolithin A production"
+    },
+    {
+      "bacteria_name": "Ruminococcaceae",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Omega-3 content and prebiotic fiber promote beneficial bacteria growth"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances butyrate production and supports urolithin A production with anti-inflammatory effects"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Supports cardiovascular health and reduces inflammation through gut microbiome modulation"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "29244938",
+      "title": "Changes in gut microbial communities with walnuts",
+      "authors": "Research Team",
+      "journal": "Journal of Nutritional Biochemistry",
+      "publication_year": 2017,
+      "study_type": "clinical"
+    }
+  ]
+}

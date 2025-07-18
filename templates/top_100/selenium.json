@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Selenium",
+    "slug": "selenium",
+    "category": "mineral",
+    "description": "Trace mineral with antioxidant and immune support properties",
+    "gut_score": 6.0,
+    "confidence_score": 0.65,
+    "aliases": [
+      "Selenium methionine",
+      "Sodium selenite"
+    ],
+    "dosage_info": {
+      "min_dose": "50.0",
+      "max_dose": "200",
+      "unit": "mcg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut microbiome",
+      "bacteria_level": "genus",
+      "effect_type": "modulates_activity",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    },
+    {
+      "bacteria_name": "Immune cells",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Antioxidant properties support immune function"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Antioxidant properties support immune function and reduce inflammation"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "May support gut health through antioxidant and immune properties"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited specific gut microbiome research available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

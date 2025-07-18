@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Akkermansia muciniphila",
+    "slug": "akkermansia-muciniphila",
+    "category": "probiotic",
+    "description": "Next-generation probiotic with mucin degradation and barrier benefits",
+    "gut_score": 8.0,
+    "confidence_score": 0.8,
+    "aliases": [
+      "A. muciniphila",
+      "Akkermansia"
+    ],
+    "dosage_info": {
+      "min_dose": "10000000000.0",
+      "max_dose": "10000000000",
+      "unit": "CFU",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Mucin layer",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Enhances mucin degradation and barrier function through specialized metabolism"
+    },
+    {
+      "bacteria_name": "GLP-1 secretion",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Reduces intestinal permeability and modulates immune response through TLR2/TLR4 pathways"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Improves insulin sensitivity and reduces insulinemia through gut barrier enhancement"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "irregular_bowel",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces metabolic syndrome markers and improves liver function with decreased inflammation"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "31263284",
+      "title": "Supplementation with Akkermansia muciniphila",
+      "authors": "Research Team",
+      "journal": "Nature Medicine",
+      "publication_year": 2019,
+      "study_type": "clinical"
+    }
+  ]
+}

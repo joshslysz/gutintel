@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Olive oil",
+    "slug": "olive-oil",
+    "category": "fatty_acid",
+    "description": "Healthy fat with polyphenols and limited gut microbiome research",
+    "gut_score": 5.0,
+    "confidence_score": 0.5,
+    "aliases": [
+      "Extra virgin olive oil",
+      "EVOO"
+    ],
+    "dosage_info": {
+      "min_dose": "15000.0",
+      "max_dose": "30000",
+      "unit": "ml",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited specific gut microbiome research available"
+    },
+    {
+      "bacteria_name": "Gut barrier",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Provides polyphenols and supports gut barrier function"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "reduces_inflammation",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Provides polyphenols and supports gut barrier function"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Anti-inflammatory effects with limited gut-specific evidence"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Limited specific gut microbiome research available",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

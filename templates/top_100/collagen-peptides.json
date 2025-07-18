@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Collagen peptides",
+    "slug": "collagen-peptides",
+    "category": "other",
+    "description": "Hydrolyzed collagen with gut barrier support properties",
+    "gut_score": 5.0,
+    "confidence_score": 0.5,
+    "aliases": [
+      "Hydrolyzed collagen",
+      "Collagen hydrolysate"
+    ],
+    "dosage_info": {
+      "min_dose": "2500.0",
+      "max_dose": "20000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Gut barrier",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Provides amino acids for gut barrier proteins"
+    },
+    {
+      "bacteria_name": "Tight junctions",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Enhances tight junction proteins and provides building blocks"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "improves_barrier_function",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Improves intestinal barrier function and provides building blocks for gut proteins"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "bloating",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces bloating in healthy women and improves digestive comfort"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "36198822",
+      "title": "Effect of collagen peptide supplement",
+      "authors": "Research Team",
+      "journal": "JMIR Formative Research",
+      "publication_year": 2022,
+      "study_type": "clinical"
+    }
+  ]
+}

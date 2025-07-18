@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Iron",
+    "slug": "iron",
+    "category": "mineral",
+    "description": "Essential mineral with mixed gut microbiome effects",
+    "gut_score": 5.5,
+    "confidence_score": 0.6,
+    "aliases": [
+      "Ferrous sulfate",
+      "Iron bisglycinate",
+      "Heme iron"
+    ],
+    "dosage_info": {
+      "min_dose": "8.0",
+      "max_dose": "45",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Pathogenic bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Iron supplementation may promote pathogenic bacteria"
+    },
+    {
+      "bacteria_name": "Beneficial bacteria",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "May negatively affect beneficial bacteria in some cases"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Essential for immune function but may promote pathogenic bacteria"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "constipation",
+      "impact_direction": "negative",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Iron supplementation commonly causes constipation and may promote pathogenic bacteria"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Limited",
+      "title": "Mixed evidence on gut microbiome effects",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

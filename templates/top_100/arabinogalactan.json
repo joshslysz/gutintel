@@ -1,0 +1,67 @@
+{
+  "ingredient": {
+    "name": "Arabinogalactan",
+    "slug": "arabinogalactan",
+    "category": "prebiotic",
+    "description": "Larch-derived prebiotic with immune modulation properties",
+    "gut_score": 5.0,
+    "confidence_score": 0.65,
+    "aliases": [
+      "Larch arabinogalactan",
+      "AG"
+    ],
+    "dosage_info": {
+      "min_dose": "4000.0",
+      "max_dose": "15000",
+      "unit": "mg",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Specific bacterial fermentation with immune modulation"
+    },
+    {
+      "bacteria_name": "Lactobacillus",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "weak",
+      "confidence": 0.7,
+      "mechanism": "Limited broader effects on gut microbiome diversity"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "modulates_immune",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Limited SCFA production with immune system enhancement"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "gas",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Immune support with limited digestive benefits"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "Multiple",
+      "title": "Studies on arabinogalactan immune effects",
+      "authors": "Research Team",
+      "journal": "Various journals",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ingredient": {
+    "name": "Spore-based probiotics",
+    "slug": "spore-based-probiotics",
+    "category": "probiotic",
+    "description": "Heat-resistant spore-forming bacteria with excellent survival",
+    "gut_score": 7.0,
+    "confidence_score": 0.7,
+    "aliases": [
+      "Bacillus species",
+      "Bacillus spores",
+      "Spore-forming probiotics"
+    ],
+    "dosage_info": {
+      "min_dose": "2000000000.0",
+      "max_dose": "5000000000",
+      "unit": "CFU",
+      "frequency": "daily"
+    }
+  },
+  "microbiome_effects": [
+    {
+      "bacteria_name": "Bifidobacterium",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "strong",
+      "confidence": 0.7,
+      "mechanism": "Survives gastric acid and produces bacteriocins and antimicrobial compounds"
+    },
+    {
+      "bacteria_name": "Akkermansia",
+      "bacteria_level": "genus",
+      "effect_type": "promotes_growth",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases beneficial bacteria and modulates immune response"
+    }
+  ],
+  "metabolic_effects": [
+    {
+      "effect_name": "increases_scfa",
+      "effect_category": "metabolism",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "mechanism": "Increases short-chain fatty acid production and reduces inflammatory markers"
+    }
+  ],
+  "symptom_effects": [
+    {
+      "symptom_name": "diarrhea",
+      "impact_direction": "positive",
+      "effect_strength": "moderate",
+      "confidence": 0.7,
+      "population_notes": "Reduces diarrhea duration and improves IBS symptoms with enhanced immune function"
+    }
+  ],
+  "citations": [
+    {
+      "pmid": "36771194",
+      "title": "Spore-based probiotic for COVID-19",
+      "authors": "Research Team",
+      "journal": "Nutrients",
+      "publication_year": 2023,
+      "study_type": "clinical"
+    }
+  ]
+}
