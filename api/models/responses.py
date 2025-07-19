@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import Any, Dict, List, Optional, TypeVar, Generic
 from uuid import UUID, uuid4
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, validator
 
 
 # Type variable for generic response data
@@ -20,13 +20,8 @@ class ResponseMetadata(BaseModel):
     """Metadata included in all API responses."""
     
     request_id: str = Field(default_factory=lambda: str(uuid4()))
-    timestamp: datetime = Field(default_factory=datetime.utcnow)
+    timestamp: str = Field(default_factory=lambda: datetime.utcnow().isoformat())
     version: str = "1.0.0"
-    
-    class Config:
-        json_encoders = {
-            datetime: lambda v: v.isoformat()
-        }
 
 
 class ErrorDetail(BaseModel):
@@ -173,14 +168,11 @@ class HealthResponse(BaseModel):
     """Health check response model."""
     
     status: str = "healthy"
-    timestamp: datetime = Field(default_factory=datetime.utcnow)
+    timestamp: str = Field(default_factory=lambda: datetime.utcnow().isoformat())
     version: str = "1.0.0"
     database: str = "connected"
     
     class Config:
-        json_encoders = {
-            datetime: lambda v: v.isoformat()
-        }
         schema_extra = {
             "example": {
                 "status": "healthy",

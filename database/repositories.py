@@ -948,10 +948,7 @@ class IngredientRepository(BaseRepository):
         """Build complete ingredient model from database record."""
         ingredient_dict = self._record_to_dict(ingredient_record)
         
-        # Parse JSON fields
-        if ingredient_dict.get('dosage_info'):
-            ingredient_dict['dosage_info'] = json.loads(ingredient_dict['dosage_info'])
-        
+        # JSON fields are already parsed in _record_to_dict, no need to parse again
         ingredient = IngredientModel(**ingredient_dict)
         
         # Fetch related data

@@ -13,16 +13,16 @@ from fastapi.responses import JSONResponse
 from fastapi.openapi.docs import get_swagger_ui_html
 from fastapi.openapi.utils import get_openapi
 
-from config import get_settings
-from database import init_db, close_db, health_check
-from models.responses import (
+from . import simple_config
+from .database import init_db, close_db, health_check
+from .models.responses import (
     BaseResponse, 
     HealthResponse, 
     ErrorDetail,
     InternalServerErrorResponse,
     ValidationErrorResponse
 )
-from routers import ingredients
+from .routers import ingredients, ai
 
 
 # Configure logging
@@ -59,14 +59,13 @@ async def lifespan(app: FastAPI):
         logger.error(f"Error during shutdown: {e}")
 
 
-# Get settings
-settings = get_settings()
+# Use simple config for now
 
 # Create FastAPI application
 app = FastAPI(
-    title=settings.api_title,
-    description=settings.api_description,
-    version=settings.api_version,
+    title="GutIntel API",
+    description="Gut Health Intelligence API - Comprehensive ingredient and microbiome data",
+    version="1.0.0",
     lifespan=lifespan,
     docs_url="/docs",
     redoc_url="/redoc",
@@ -76,10 +75,10 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origins,
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=settings.cors_methods,
-    allow_headers=settings.cors_headers,
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["*"],
 )
 
 
@@ -90,9 +89,9 @@ def custom_openapi():
         return app.openapi_schema
     
     openapi_schema = get_openapi(
-        title=settings.api_title,
-        version=settings.api_version,
-        description=settings.api_description,
+        title="GutIntel API",
+        version="1.0.0",
+        description="Gut Health Intelligence API - Comprehensive ingredient and microbiome data",
         routes=app.routes,
     )
     
@@ -124,7 +123,7 @@ async def http_exception_handler(request: Request, exc: HTTPException):
     
     return JSONResponse(
         status_code=exc.status_code,
-        content=BaseResponse.error_response([error_detail]).dict()
+        content=BaseResponse.error_response([error_detail]).model_dump()
     )
 
 
@@ -140,7 +139,7 @@ async def general_exception_handler(request: Request, exc: Exception):
     
     return JSONResponse(
         status_code=500,
-        content=BaseResponse.error_response([error_detail]).dict()
+        content=BaseResponse.error_response([error_detail]).model_dump()
     )
 
 
@@ -186,7 +185,7 @@ async def root():
     """
     return {
         "message": "Welcome to GutIntel API",
-        "version": settings.api_version,
+        "version": "1.0.0",
         "docs_url": "/docs",
         "health_url": "/health"
     }
@@ -195,6 +194,11 @@ async def root():
 # Include routers
 app.include_router(
     ingredients.router,
+    prefix="/api/v1"
+)
+
+app.include_router(
+    ai.router,
     prefix="/api/v1"
 )
 
@@ -223,7 +227,7 @@ async def limit_request_size(request: Request, call_next):
     
     if content_length:
         content_length = int(content_length)
-        if content_length > settings.max_request_size:
+        if content_length > 10485760:  # 10MB
             return JSONResponse(
                 status_code=413,
                 content={
@@ -231,7 +235,7 @@ async def limit_request_size(request: Request, call_next):
                     "errors": [
                         {
                             "code": "REQUEST_TOO_LARGE",
-                            "message": f"Request size {content_length} exceeds maximum {settings.max_request_size} bytes"
+                            "message": f"Request size {content_length} exceeds maximum 10485760 bytes"
                         }
                     ]
                 }
@@ -245,8 +249,8 @@ if __name__ == "__main__":
     
     uvicorn.run(
         "api.main:app",
-        host=settings.host,
-        port=settings.port,
-        reload=settings.debug,
-        log_level=settings.log_level.lower()
+        host=simple_config.HOST,
+        port=simple_config.PORT,
+        reload=simple_config.DEBUG,
+        log_level=simple_config.LOG_LEVEL.lower()
     )
